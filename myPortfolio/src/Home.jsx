@@ -1,20 +1,19 @@
-import Header from "./components/Header";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Header from "./components/Header";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
-function App() {
+function Home() {
   return (
-    <>
-      <About />
-
+    <div>
       <Header />
+      <About />
       <Contact />
       <Projects />
       <Footer />
-    </>
+    </div>
   );
 }
 
-export default App;
+export default Home;
