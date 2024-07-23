@@ -1,17 +1,18 @@
-import React from 'react'
+
 
 function Navbar() {
   return (
     <div>
       <div>
         <p>Ahnob</p>
-        <div>
-            <p>Contact</p>
-            
-        </div>
+        <nav>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </nav>
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
