@@ -8,15 +8,15 @@ function App() {
     <div>
       <Header />
       <main>
-        <About />
+        {/* <About />
         <Projects />
-        <Contact />
+        <Contact /> */}
       </main>
-      <footer className="bg-gray-800 text-white text-center p-4 mt-8">
+      {/* <footer className="bg-gray-800 text-white text-center p-4 mt-8">
         <p>
           &copy; {new Date().getFullYear()} My Portfolio. All rights reserved.
         </p>
-      </footer>
+      </footer> */}
     </div>
   );
 }
