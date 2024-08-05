@@ -1,30 +1,35 @@
-function Contact() {
+const Contact = () => {
   return (
-    <section id="contact" className="py-16 bg-gray-50">
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">Contact Me</h2>
-        <p className="text-gray-700 text-lg leading-relaxed mb-8">
-          Feel free to reach out to me via email or follow me on social media.
-        </p>
-        <form className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
-          <input
-            type="text"
-            className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-            placeholder="Your Name"
-          />
-          <input
-            type="email"
-            className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-            placeholder="Your Email"
-          />
-          <textarea
-            className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-            placeholder="Your Message"
-            rows="5"
-          ></textarea>
+    <section id="contact" className="container mx-auto py-16 px-4">
+      <div className="text-center">
+        <h2 className="text-4xl font-bold mb-8">Contact Me</h2>
+        <form action="#" method="POST" className="max-w-xl mx-auto">
+          <div className="mb-4">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              className="w-full p-4 border border-gray-300 rounded-lg"
+            />
+          </div>
+          <div className="mb-4">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              className="w-full p-4 border border-gray-300 rounded-lg"
+            />
+          </div>
+          <div className="mb-4">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              className="w-full p-4 border border-gray-300 rounded-lg h-32"
+            ></textarea>
+          </div>
           <button
             type="submit"
-            className="w-full p-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700"
+            className="bg-gray-800 text-white py-3 px-6 rounded-lg"
           >
             Send Message
           </button>
@@ -32,6 +37,6 @@ function Contact() {
       </div>
     </section>
   );
-}
+};
 
 export default Contact;

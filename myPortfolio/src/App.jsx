@@ -1,22 +1,20 @@
-import Header from "./components/Header";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import Header from "./Header";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   return (
     <div>
       <Header />
-      <main>
-        {/* <About />
-        <Projects />
-        <Contact /> */}
-      </main>
-      {/* <footer className="bg-gray-800 text-white text-center p-4 mt-8">
-        <p>
-          &copy; {new Date().getFullYear()} My Portfolio. All rights reserved.
-        </p>
-      </footer> */}
+      <About />
+      <Projects />
+      <Contact />
+      <footer className="bg-gray-800 text-white p-4">
+        <div className="container mx-auto text-center">
+          &copy; 2024 My Portfolio. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 }
