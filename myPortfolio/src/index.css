@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "Arial", sans-serif;
   color: #333;
   line-height: 1.6;
@@ -16,7 +17,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   background-color: #333;
   color: #fff;
 }
@@ -25,10 +26,6 @@ a {
   display: flex;
   list-style: none;
   gap: 10px;
-}
-
-.na li {
-  margin-left: 2rem;
 }
 
 .nav-links a {
@@ -98,7 +95,8 @@ a {
   margin-bottom: 2rem;
 }
 
-Projects Section .projects {
+/* projects Section */
+.projects {
   padding: 4rem 2rem;
   background-color: #f4f4f4;
 }
@@ -111,6 +109,7 @@ Projects Section .projects {
 
 .project-card {
   background-color: #fff;
+  border-top: 2px solid black;
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 10px;
@@ -127,8 +126,8 @@ Projects Section .projects {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   background-color: #333;
+  border-radius: 5px;
   color: #fff;
-  border-radius: 25px;
   transition: background-color 0.3s ease;
 }
 
@@ -172,6 +171,7 @@ Projects Section .projects {
   background-color: #333;
   color: #fff;
   border: none;
+  cursor: pointer;
   border-radius: 25px;
   transition: background-color 0.3s ease;
 }
@@ -182,6 +182,6 @@ Projects Section .projects {
 
 .gap {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }

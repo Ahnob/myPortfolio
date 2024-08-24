@@ -10,8 +10,8 @@ const projects = [
     link: "#",
   },
   {
-    title: "Project Two",
-    description: "A brief description of project two.",
+    title: "Project Three",
+    description: "A brief description of project three.",
     link: "#",
   },
   // Add more projects as needed
