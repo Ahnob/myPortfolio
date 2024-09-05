@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Projects from "./Projects";
+import Hero from "../components/hero/Hero";
+import Projects from "./projects/Projects";
 import Contact from "./Contact";
 
 function Home() {
