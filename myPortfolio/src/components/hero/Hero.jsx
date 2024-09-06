@@ -1,25 +1,8 @@
-// import { Link } from "react-router-dom";
-// const Hero = () => {
-//   return (
-//     <section className="hero">
-//       <h1>Hi, I am Anob,</h1>
-//       <p>
-//         I am a firm believer that you become better when you put your mind to
-//         it.
-//       </p>
-//       <Link href="/projects" className="cta">
-//         View My Work
-//       </Link>
-//     </section>
-//   );
-// };
-
-// export default Hero;
-
-import { faGithub, FaLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./hero.css";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <header className="hero-section">
       <div className="hero-content reveal">
@@ -35,14 +18,14 @@ const HeroSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <faGithub />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
       </div>
@@ -50,4 +33,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

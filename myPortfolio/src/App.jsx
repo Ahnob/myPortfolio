@@ -3,14 +3,7 @@
 // function App() {
 //   return (
 //     <div>
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/navbar" element={<Navbar />} />
-//         <Route path="/hero" element={<Hero />} />
-//         <Route path="/projects" element={<Projects />} />
-//         <Route path="/contact" element={<Contact />} />
-//       </Routes>
+//
 //     </div>
 //   );
 // }
@@ -18,12 +11,12 @@
 // export default App;
 import { useEffect } from "react";
 import "./App.css";
-// import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import About from "./pages/About";
 import Projects from "./pages/projects/Projects";
-import Contact from "./pages/Contact";
+import Contact from "./pages/contact/Contact";
 import Home from "./pages/Home";
 
 const App = () => {
@@ -50,19 +43,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <Home />
-      <Navbar />
-      <Hero />
-      <About />
-      <Contact />
-      <Projects />
-
-      <section id="contact" className="contact-section reveal">
-        <h2>Contact Me</h2>
-        <p>
-          Feel free to reach out via email or connect with me on social media.
-        </p>
-      </section>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/navbar" element={<Navbar />} />
+        <Route path="/hero" element={<Hero />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 };

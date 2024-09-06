@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #323030;
   text-align: center;
 }
 
@@ -37,13 +37,13 @@
     border-color: transparent;
   }
   50% {
-    border-color: white;
+    border-color: rgb(231, 173, 173);
   }
 }
 
 .social-icons a {
   margin: 0 15px;
-  color: #fff;
+  color: #cb3030;
   font-size: 1.5rem;
   transition: color 0.3s;
 }

@@ -4,6 +4,7 @@ import {
   faLinkedin,
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import "./contact.css";
 
 const Contact = () => {
   return (
