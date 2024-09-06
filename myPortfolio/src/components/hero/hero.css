@@ -1,6 +1,5 @@
 .hero-section {
   height: 100vh;
-  background-image: url("/path-to-your-background-image.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -8,12 +7,14 @@
   justify-content: center;
   color: #323030;
   text-align: center;
+  background-image: url("../../assets/photo-1496181133206-80ce9b88a853.avif");
 }
 
 .hero-content {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease-out, transform 1s ease-out;
+  color: black;
 }
 
 .reveal.active .hero-content {
@@ -29,6 +30,7 @@
   border-right: 2px solid white;
   overflow: hidden;
   animation: blink 0.7s step-end infinite;
+  color: #7bbd11;
 }
 
 @keyframes blink {
@@ -43,11 +45,11 @@
 
 .social-icons a {
   margin: 0 15px;
-  color: #cb3030;
+  color: #7bbd11;
   font-size: 1.5rem;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #e63946;
+  color: #1088b4;
 }

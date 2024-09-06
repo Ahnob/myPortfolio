@@ -14,7 +14,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
-import About from "./pages/About";
+import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/Home";
