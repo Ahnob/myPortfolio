@@ -1,10 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import image from "../../assets/portfolio-image.avif";
 import "./hero.css";
 
 const Hero = () => {
   return (
     <header className="hero-section">
+      <img src={image} />
+
       <div className="hero-content reveal">
         <h1>Hi, I'm a Creative Developer</h1>
         <p>

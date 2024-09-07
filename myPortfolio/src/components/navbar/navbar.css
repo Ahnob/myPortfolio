@@ -25,13 +25,14 @@ li {
   margin: 0 20px;
 }
 
-a {
+.nav-link {
   color: #252323;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s;
+  
 }
 
-a:hover {
-  color: #e63946;
+.nav-link:hover {
+  color: #545151;
 }
