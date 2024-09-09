@@ -1,6 +1,5 @@
 .contact {
   padding: 4rem 2rem;
-  background: rgb(240, 238, 232);
 
   text-align: center;
 }
@@ -31,8 +30,8 @@
 
 .contact button {
   padding: 0.75rem 2rem;
-  background-color: #ffe20063;
-  color: #000;
+  background-color: #080707dd;
+  color: #fbf3f3;
   border: none;
   cursor: pointer;
   border-radius: 25px;

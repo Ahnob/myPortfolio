@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-image: url("../../assets/portfolio-image.avif"); /* Path to the image */
+  background-image: url("../../assets/portfolio-image.avif");
 }
 
 li {
@@ -28,5 +28,3 @@ li {
 .contact-margin {
   margin-right: 20px;
 }
-
-

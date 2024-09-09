@@ -1,15 +1,16 @@
 .about-section {
   padding: 100px 50px;
-  background-color: #fff;
 }
 
-.reveal {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 1s ease-out, transform 1s ease-out;
+body {
+  background-image: url("../../assets/portfolio-image.avif");
 }
 
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
+.h2-about {
+  text-align: center;
+}
+
+.about-paragraph {
+  text-align: center;
+  margin: 2px 15px;
 }

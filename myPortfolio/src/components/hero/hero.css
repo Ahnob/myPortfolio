@@ -8,7 +8,7 @@
   color: #323030;
   text-align: center;
   position: relative;
-  background-image: url("../../assets/portfolio-image.avif"); /* Path to the image */
+  background-image: url("../../assets/portfolio-image.avif"); 
 }
 
 .logo {
@@ -25,6 +25,18 @@
   transition: opacity 1s ease-out, transform 1s ease-out;
   color: black;
 }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 .reveal.active .hero-content {
   opacity: 1;
