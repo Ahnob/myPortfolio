@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-image: url("../../assets/portfolio-image.avif"); /* Path to the image */
 }
 
 li {
@@ -15,13 +16,17 @@ li {
 
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: #000;
+  font-size: 20px;
 }
 
 .nav-link:hover {
-  color: bisque;
+  font-weight: 700;
+  border-bottom: 2px solid black;
 }
 
 .contact-margin {
   margin-right: 20px;
 }
+
+

@@ -11,6 +11,14 @@
   background-image: url("../../assets/portfolio-image.avif"); /* Path to the image */
 }
 
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
 .hero-content {
   opacity: 0;
   transform: translateY(50px);
@@ -31,7 +39,17 @@
   border-right: 2px solid white;
   overflow: hidden;
   animation: blink 0.7s step-end infinite;
-  color: #7bbd11;
+  color: #131312;
+}
+
+.hero-paragraph {
+  font-size: 20px;
+  color: #323030;
+  font-weight: 600;
+}
+
+.hero-h1 {
+  font-size: 44px;
 }
 
 @keyframes blink {
@@ -46,11 +64,11 @@
 
 .social-icons a {
   margin: 0 15px;
-  color: #7bbd11;
-  font-size: 1.5rem;
+  color: #0c0c0b;
+  font-size: 30px;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #1088b4;
+  color: #161c1f;
 }

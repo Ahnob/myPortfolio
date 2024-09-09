@@ -1,14 +1,3 @@
-//
-
-// function App() {
-//   return (
-//     <div>
-//
-//     </div>
-//   );
-// }
-
-// export default App;
 import { useEffect } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
@@ -18,6 +7,7 @@ import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/Home";
+// import Footer from "./pages/footer/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -50,6 +40,7 @@ const App = () => {
         <Route path="/hero" element={<Hero />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/footer" element={<Footer />} /> */}
       </Routes>
     </div>
   );

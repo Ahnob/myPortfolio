@@ -1,6 +1,7 @@
 .contact {
   padding: 4rem 2rem;
-  background-color: #f6f3f3;
+  background: rgb(240, 238, 232);
+
   text-align: center;
 }
 
@@ -25,21 +26,23 @@
   width: 100%;
   max-width: 400px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 9px;
 }
 
 .contact button {
   padding: 0.75rem 2rem;
-  background-color: #333;
-  color: #fff;
+  background-color: #ffe20063;
+  color: #000;
   border: none;
   cursor: pointer;
   border-radius: 25px;
   transition: background-color 0.3s ease;
+  font-size: 20px;
 }
 
 .contact button:hover {
   background-color: #555;
+  color: #fff;
 }
 
 .gap {

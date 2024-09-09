@@ -11,9 +11,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
-*/ h2 {
+h2 {
   color: transparent;
   background-clip: text;
   background-repeat: no-repeat;
   background-image: "./assets/photo-1496181133206-80ce9b88a853.avif";
+  color: rgb(22, 17, 17);
 }

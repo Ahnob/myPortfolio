@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <header className="hero-section">
       <div className="hero-content reveal">
-        <h1>Hi, I'm a Creative Developer</h1>
-        <p>
+        <h1 className="hero-h1">Hi, I'm a Creative Developer</h1>
+        <p className="hero-paragraph">
           I'm a developer passionate about creating beautiful, functional web
           apps with great user experiences.
         </p>
