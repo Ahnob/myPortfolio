@@ -3,6 +3,7 @@ import {
   faTwitter,
   faLinkedin,
   faPinterest,
+  fa-arrow-left
 } from "@fortawesome/free-brands-svg-icons";
 import "./contact.css";
 

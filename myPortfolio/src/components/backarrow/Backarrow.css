@@ -1,0 +1,13 @@
+.back-arrow {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.back-arrow:hover {
+  color: #000;
+}
