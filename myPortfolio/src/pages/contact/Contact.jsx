@@ -3,13 +3,14 @@ import {
   faTwitter,
   faLinkedin,
   faPinterest,
-  fa-arrow-left
 } from "@fortawesome/free-brands-svg-icons";
 import "./contact.css";
+import Backarrow from "../../components/backarrow/Backarrow";
 
 const Contact = () => {
   return (
     <div>
+      <Backarrow />
       <section id="contact" className="contact">
         <h2>Contact Me</h2>
         <form>

@@ -1,6 +1,8 @@
 body {
   background-color: #e0e2dd;
+  overflow-y: scroll;
 }
+
 .projects-section {
   padding: 100px 50px;
   background-color: #e0e2dd;

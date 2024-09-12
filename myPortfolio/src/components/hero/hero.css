@@ -27,18 +27,18 @@
 }
 
 .reveal {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(50px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
 .reveal.active {
-  opacity: 1;
+  opacity: 2;
   transform: translateY(0);
 }
 
 .reveal.active .hero-content {
-  opacity: 1;
+  opacity: 2;
   transform: translateY(0);
 }
 
