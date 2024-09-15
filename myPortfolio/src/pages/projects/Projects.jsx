@@ -3,6 +3,7 @@ import Backarrow from "../../components/backarrow/Backarrow";
 import recipeAppImage from "../../assets/maryam-sicard-Tz1sAv3xnt0-unsplash.jpg";
 import portfolioImage from "../../assets/portfolio-1.jpeg";
 import ecommerceImage from "../../assets/commerce.jpeg";
+import elevateCV from "../../assets/resume-genius-9si2noVCVH8-unsplash.jpg";
 
 const projects = [
   {
@@ -18,6 +19,13 @@ const projects = [
       "A bold and unique personal portfolio with interactive features and animations.",
     link: "#",
     image: portfolioImage,
+  },
+  {
+    title: "ElevateCV",
+    description:
+      "A website that enables you get job ready with great CVs and Cover letters.",
+    link: "#",
+    image: elevateCV,
   },
   {
     title: "E-commerce Store",

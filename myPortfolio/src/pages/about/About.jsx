@@ -4,60 +4,59 @@ import Backarrow from "../../components/backarrow/Backarrow";
 function About() {
   return (
     <>
-    <Backarrow />
+      <Backarrow />
       <div className="about-container">
         <h1 className="h2-about">About Me</h1>
         <p className="about-paragraph">
-          Hello! I’m Nobz, and my journey into the world of software development
-          began with a moment of pure fascination. I vividly remember watching a
-          friend code, and it felt like witnessing a spellbinding magic trick.
-          The way lines of code could evolve into fully functional applications
-          left me mesmerized. Driven by this newfound excitement, I aasked if I
-          could also learn it and I was given a course of Udemy(Angela Yu's
-          course) I delved into coding myself. I would not say it has been easy,
-          in hinsight, its been tough for me because at some point, I had
-          school, at another work. I am not where I want to be yet but creating
-          this portfolio is a step in the right direction.
+          Hey there! I'm Nobz, a fashion lover turned software developer, with a
+          passion for both stitching fabrics and stitching code. My journey into
+          the tech world started when I watched a friend transform lines of code
+          into a living, breathing application—it felt like magic! I couldn’t
+          resist, so I asked if I could learn too, and before I knew it, I was
+          knee-deep in Angela Yu's Udemy course, fully hooked.
+        </p>
+        <p className="about-paragraph">
+          Coding hasn’t been all smooth sailing—I’ve had to juggle school, work,
+          and learning—but here I am, building this portfolio, which feels like
+          a massive step in the right direction. While I'm not quite where I
+          want to be yet, the progress I've made has been exhilarating.
         </p>
 
         <h2 className="h2-about">The Joy of Creation</h2>
         <p className="about-paragraph">
-          Writing code in VS Code and seeing it come to life is like a joyous
-          revelation. Each successful implementation brings a sense of
-          accomplishment and pride, could be compared to the joy of a parent
-          watching their child take their first steps. This sense of wonder and
-          achievement fuels my passion for development and inspires me to
-          continuously learn and grow.
+          For me, writing code in VS Code is like sewing a new garment. There's
+          something magical about seeing a project take shape, piece by piece.
+          Just like tailoring fabric into a perfectly fitted outfit, watching
+          code come alive in the browser feels like seeing someone wear a
+          custom-made piece of clothing. And when it all fits together
+          flawlessly? That feeling is pure joy—it’s why I love what I do.
         </p>
 
         <h2 className="h2-about">What I Do</h2>
         <p className="about-paragraph">
-          As a software developer, I’m dedicated to crafting solutions that are
-          both innovative and effective. I am currently on the journey to
-          perfect Javascript and React. I thrive on the challenge of solving
-          complex problems and turning creative ideas into functional software.
+          As a developer, I’m focused on turning creative ideas into real,
+          functional solutions. Right now, I’m sharpening my skills in
+          JavaScript and React. I thrive on solving complex problems and, just
+          like sewing, it’s about precision, patience, and getting all the
+          details right.
         </p>
 
         <h2 className="h2-about">My Skills</h2>
         <p className="about-paragraph">
-          I am always eager to explore new technologies. My approach combines
-          technical expertise with a keen eye for detail, ensuring that every
-          project I work on is both efficient and user-friendly.
+          I’m always on the hunt for new technologies and ways to improve. My
+          approach to coding, like fashion design, involves a balance of
+          creativity and technical know-how, ensuring that every project is both
+          beautiful and efficient. From front-end design to behind-the-scenes
+          functionality, I take pride in every piece I create.
         </p>
 
         <h2 className="h2-about">Looking Ahead</h2>
         <p className="about-paragraph">
-          I’m excited about the endless possibilities in the tech world and am
-          constantly seeking opportunities to collaborate, learn, and create.
-          Whether it's a personal project or a professional challenge, I bring
-          enthusiasm, dedication and a cheerful smile to everything I do.
-        </p>
-
-        <h2 className="h2-about">Let’s Connect</h2>
-        <p className="about-paragraph">
-          I’d love to connect with fellow developers, share ideas, or
-          collaborate on exciting projects. Feel free to reach out through
-          email, LinkedIn or twitter. Let’s build something amazing together!
+          The tech world feels like an endless runway of possibilities, and I’m
+          excited to keep learning, growing, and collaborating. Whether it's
+          fashion, coding, or something in between, I bring my excitement,
+          dedication, and yes, a big smile to everything I do. I can't wait to
+          see where this journey takes me next!
         </p>
       </div>
     </>

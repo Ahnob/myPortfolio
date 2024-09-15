@@ -33,12 +33,12 @@
 }
 
 .reveal.active {
-  opacity: 2;
+  opacity: 1;
   transform: translateY(0);
 }
 
 .reveal.active .hero-content {
-  opacity: 2;
+  opacity: 1;
   transform: translateY(0);
 }
 
