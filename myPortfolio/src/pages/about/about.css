@@ -12,5 +12,6 @@ body {
 
 .about-paragraph {
   text-align: center;
-  margin: 2px 15px;
+  margin: 20px 15px;
+  display: flex;
 }

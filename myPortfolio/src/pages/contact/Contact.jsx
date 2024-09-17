@@ -9,19 +9,21 @@ import Backarrow from "../../components/backarrow/Backarrow";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact-page">
       <Backarrow />
       <section id="contact" className="contact">
-        <h2>Contact Me</h2>
-        <form>
+        <h2 className="contact-title">Get In Touch</h2>
+        <form className="contact-form">
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <textarea placeholder="Your Message" required></textarea>
           <button type="submit">Send Message</button>
         </form>
         <div className="social-media">
-          <h4>You could also contact me using any of these</h4>
-          <div className="gap">
+          <h4 className="social-title">
+            You could also contact me using any of these
+          </h4>
+          <div className="social-icons">
             <a
               href="https://twitter.com/yourusername"
               target="_blank"

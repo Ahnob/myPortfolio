@@ -1,5 +1,6 @@
 import "./about.css";
 import Backarrow from "../../components/backarrow/Backarrow";
+import Picture from "../../assets/Anob.jpeg";
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
           want to be yet, the progress I've made has been exhilarating.
         </p>
 
-        <h2 className="h2-about">The Joy of Creation</h2>
+        {/* <h2 className="h2-about">The Joy of Creation</h2> */}
         <p className="about-paragraph">
           For me, writing code in VS Code is like sewing a new garment. There's
           something magical about seeing a project take shape, piece by piece.
@@ -32,7 +33,7 @@ function About() {
           flawlessly? That feeling is pure joy—it’s why I love what I do.
         </p>
 
-        <h2 className="h2-about">What I Do</h2>
+        {/* <h2 className="h2-about">What I Do</h2> */}
         <p className="about-paragraph">
           As a developer, I’m focused on turning creative ideas into real,
           functional solutions. Right now, I’m sharpening my skills in
@@ -41,7 +42,7 @@ function About() {
           details right.
         </p>
 
-        <h2 className="h2-about">My Skills</h2>
+        {/* <h2 className="h2-about">My Skills</h2> */}
         <p className="about-paragraph">
           I’m always on the hunt for new technologies and ways to improve. My
           approach to coding, like fashion design, involves a balance of
@@ -50,7 +51,7 @@ function About() {
           functionality, I take pride in every piece I create.
         </p>
 
-        <h2 className="h2-about">Looking Ahead</h2>
+        {/* <h2 className="h2-about">Looking Ahead</h2> */}
         <p className="about-paragraph">
           The tech world feels like an endless runway of possibilities, and I’m
           excited to keep learning, growing, and collaborating. Whether it's
@@ -58,6 +59,10 @@ function About() {
           dedication, and yes, a big smile to everything I do. I can't wait to
           see where this journey takes me next!
         </p>
+
+        <div>
+          <img src={Picture} />
+        </div>
       </div>
     </>
   );
