@@ -1,41 +1,48 @@
 body {
   background-color: #e0e2dd;
+  font-family: "Poppins", sans-serif; /* Modern font */
 }
 
 .projects-section {
-  padding: 100px 50px;
-  background-color: #e0e2dd;
+  padding: 100px 20px;
+  background-color: #f5f5f5;
 }
 
 .projects-grid {
-  display: flex;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Responsive grid */
+  gap: 40px;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: stretch; /* Ensures cards are same height */
 }
 
 .h2-projects {
   text-align: center;
-  font-size: 2.5rem;
-  margin: 3rem 0;
+  font-size: 3rem;
+  margin: 2rem 0;
+  color: #333;
+  letter-spacing: 2px; /* Adds a sleek modern look */
 }
 
+/* Project Card Styling */
 .project-card {
-  background-color: #ffe20063;
+  background-color: #fff;
   border-radius: 15px;
   padding: 20px;
-  width: 250px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
   position: relative;
-  border: 1px solid #edb7b7;
   overflow: hidden;
 }
 
 .project-card:hover {
-  transform: scale(1.1);
-  box-shadow: 2 10px 10px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05) rotate(2deg); /* Slight rotation and scale for dynamic effect */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .project-image {
@@ -43,21 +50,76 @@ body {
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 15px;
+  transition: opacity 0.3s ease;
 }
 
-h3 {
-  margin-top: 0;
+.project-card:hover .project-image {
+  opacity: 0.7; /* Subtle dimming effect on hover */
+}
+
+.project-card h3 {
+  margin: 20px 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
 }
 
 .project-link {
   display: inline-block;
-  margin-top: 15px;
-  color: #3e3c3c;
-  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  background-color: #f5d95d;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 25px;
   text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .project-link:hover {
-  transform: scale(1.2);
+  background-color: #f5d95d;
+  transform: scale(1.1);
+}
+
+/* Overlay Effect for More Interaction */
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(110, 108, 108, 0.5);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.project-card:hover::before {
+  opacity: 1; /* Brings in the overlay */git add 
+}
+
+.project-card h3,
+.project-card p {
+  z-index: 1;
+}
+
+.project-card:hover h3 {
+  color: #f5d95d;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .h2-projects {
+    font-size: 2.5rem;
+  }
 }
