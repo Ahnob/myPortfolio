@@ -15,3 +15,8 @@ body {
   margin: 20px 15px;
   display: flex;
 }
+
+.about-container {
+  display: flex;
+  gap: 20px;
+}
