@@ -54,7 +54,7 @@ body {
 }
 
 .project-card h3 {
-  margin: 20px 0 10px;
+  margin: 40px 0;
   font-size: 1.5rem;
   color: #333;
   transition: color 0.3s ease;
@@ -66,7 +66,7 @@ body {
   margin-bottom: 15px;
 }
 
-.project-link {
+.project-link-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #f5d95d;
@@ -75,6 +75,7 @@ body {
   border-radius: 25px;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
 }
 
 .project-link:hover {
@@ -91,7 +92,6 @@ body {
   height: 100%;
   opacity: 0;
   transition: opacity 0.4s ease;
-  box-shadow: ;
 }
 
 .project-card:hover::before {
@@ -110,10 +110,14 @@ body {
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 30px;
   }
 
   .h2-projects {
     font-size: 2.5rem;
+  }
+
+  .projects-section {
+    padding: 100px 20px;
   }
 }
