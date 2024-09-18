@@ -16,9 +16,9 @@ const Navbar = () => {
       </Link>
 
       <div className="menu-icon" onClick={toggleMenu}>
-        <div className={isOpen ? "bar open" : "bar"}></div>
-        <div className={isOpen ? "bar open" : "bar"}></div>
-        <div className={isOpen ? "bar open" : "bar"}></div>
+        <div id="top-bar" className={isOpen ? "bar open" : "bar"}></div>
+        <div id="middle-bar" className={isOpen ? "bar open" : "bar"}></div>
+        <div id="bottom-bar" className={isOpen ? "bar open" : "bar"}></div>
       </div>
 
       <ul className={isOpen ? "nav-links open" : "nav-links"}>

@@ -1,22 +1,117 @@
 .about-section {
-  padding: 100px 50px;
+  padding: 80px 30px;
+  background-color: #f5f5f5; /* Optional: Background color for the section */
 }
 
 body {
   background-image: url("../../assets/portfolio-image.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  margin: 0;
+  font-family: "Arial", sans-serif;
 }
 
 .h2-about {
   text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 
+/* Styling for the about content */
 .about-paragraph {
   text-align: center;
-  margin: 20px 15px;
-  display: flex;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px; /* Optional: Set a max-width for better readability */
 }
 
 .about-container {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow items to wrap if necessary */
+}
+
+/* Responsive for Small Mobile Screens (up to 480px) */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .h2-about {
+    font-size: 2rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-paragraph {
+    font-size: 1rem;
+    margin: 15px auto;
+  }
+}
+
+/* Responsive for Tablets (up to 768px) */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 60px 20px;
+  }
+
+  .h2-about {
+    font-size: 2.2rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-paragraph {
+    font-size: 1.1rem;
+  }
+}
+
+/* Responsive for Small Laptops (up to 1024px) */
+@media (max-width: 1024px) {
+  .about-section {
+    padding: 80px 40px;
+  }
+
+  .h2-about {
+    font-size: 2.3rem;
+  }
+
+  .about-container {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .about-paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+/* For Larger Screens (over 1200px) */
+@media (min-width: 1200px) {
+  .about-section {
+    padding: 100px 60px;
+  }
+
+  .h2-about {
+    font-size: 2.5rem;
+  }
+
+  .about-container {
+    gap: 50px;
+  }
+
+  .about-paragraph {
+    font-size: 1.3rem;
+  }
 }
