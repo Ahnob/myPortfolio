@@ -10,7 +10,7 @@ const projects = [
     title: "Recipe App",
     description:
       "An interactive, responsive recipe website with beautiful animations.",
-    link: "#",
+    link: "https://app.netlify.com/sites/incandescent-donut-c53ff9/",
     image: recipeAppImage,
   },
   {

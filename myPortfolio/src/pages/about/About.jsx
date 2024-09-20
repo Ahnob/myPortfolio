@@ -59,10 +59,6 @@ function About() {
             can't wait to see where this journey takes me next!
           </p>
         </div>
-
-        <div>
-          <img src={Picture} />
-        </div>
       </div>
     </>
   );
