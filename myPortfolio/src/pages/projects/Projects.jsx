@@ -43,7 +43,7 @@ const Projects = () => {
         <h2 className="reveal h2-projects">Projects</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div key={index} className="project-card reveal">
+            <div key={index} className="project-card reveal flex">
               {/* Add the project image */}
               <img
                 src={project.image}

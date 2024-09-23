@@ -15,14 +15,13 @@ body {
 .h2-about {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 30px;
 }
 
 /* Styling for the about content */
 .about-paragraph {
-  text-align: center;
-  margin: 20px auto;
   font-size: 1.2rem;
+  text-align: justify;
+
   line-height: 1.6;
   max-width: 800px; /* Optional: Set a max-width for better readability */
 }
@@ -30,10 +29,12 @@ body {
 .about-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  align-items: flex-start;
-  padding: 20px;
-  flex-wrap: wrap; /* Allow items to wrap if necessary */
+  flex-direction: column;
+  text-align: center;
+}
+
+.div {
+  text-align: center;
 }
 
 /* Responsive for Small Mobile Screens (up to 480px) */

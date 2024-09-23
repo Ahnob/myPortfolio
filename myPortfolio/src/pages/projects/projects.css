@@ -19,7 +19,6 @@ body {
 .h2-projects {
   text-align: center;
   font-size: 3rem;
-  margin: 2rem 0;
   color: #333;
   letter-spacing: 2px;
 }
@@ -54,16 +53,19 @@ body {
 }
 
 .project-card h3 {
-  margin: 40px 0;
   font-size: 1.5rem;
   color: #333;
   transition: color 0.3s ease;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-card p {
   font-size: 1rem;
   color: #666;
-  margin-bottom: 15px;
 }
 
 .project-link-button {
@@ -76,6 +78,8 @@ body {
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
   cursor: pointer;
+  text-align: center;
+  font-weight: 500;
 }
 
 .project-link:hover {
