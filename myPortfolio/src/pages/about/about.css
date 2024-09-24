@@ -13,22 +13,18 @@ body {
 }
 
 .h2-about {
-  text-align: center;
   font-size: 2.5rem;
 }
 
 /* Styling for the about content */
 .about-paragraph {
   font-size: 1.2rem;
-  text-align: justify;
-
   line-height: 1.6;
   max-width: 800px; /* Optional: Set a max-width for better readability */
 }
 
 .about-container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   text-align: center;
 }
@@ -60,9 +56,9 @@ body {
 
 /* Responsive for Tablets (up to 768px) */
 @media (max-width: 768px) {
-  .about-section {
+  /* .about-section {
     padding: 60px 20px;
-  }
+  } */
 
   .h2-about {
     font-size: 2.2rem;
@@ -94,6 +90,11 @@ body {
   }
 
   .about-paragraph {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .about-paragraph {
     font-size: 1.2rem;
   }
 }
@@ -114,5 +115,10 @@ body {
 
   .about-paragraph {
     font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .paragraph-container {
+    text-align: center;
   }
 }

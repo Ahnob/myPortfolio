@@ -1,6 +1,5 @@
 import "./about.css";
 import Backarrow from "../../components/backarrow/Backarrow";
-import Picture from "../../assets/Anob.jpeg";
 
 function About() {
   return (
