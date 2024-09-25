@@ -1,5 +1,6 @@
 import "./about.css";
 import Backarrow from "../../components/backarrow/Backarrow";
+import picture from "../../assets/Anob-image.jpeg";
 
 function About() {
   return (
@@ -63,6 +64,7 @@ function About() {
           </div>
         </div>
       </div>
+      <img src={picture} alt="dp" />
     </>
   );
 }
