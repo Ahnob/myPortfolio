@@ -40,7 +40,6 @@ const App = () => {
         <Route path="/hero" element={<Hero />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/footer" element={<Footer />} /> */}
       </Routes>
     </div>
   );

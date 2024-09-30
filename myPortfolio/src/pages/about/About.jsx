@@ -64,7 +64,7 @@ function About() {
           </div>
         </div>
       </div>
-      <img src={picture} alt="dp" />
+      <img src={picture} alt="dp" /> 
     </>
   );
 }
